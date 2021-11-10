@@ -10,7 +10,7 @@ $(document).ready(function() {
     }, 600);
 })
  function switchButton() 
-    var audio =<audio src="./sound/nhac.mp3" autoplay></audio> ;
+    var audio =audio src="./sound/nhac.mp3" autoplay></audio;
 function init(){
     $('#title').text(CONFIG.title)
     $('#desc').text(CONFIG.desc)

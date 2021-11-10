@@ -9,7 +9,7 @@ $(document).ready(function() {
         });
     }, 600);
 })
-
+< audio  src = " ./sound/nhac.mp3 " autoplay > </ audio >
 function init(){
     $('#title').text(CONFIG.title)
     $('#desc').text(CONFIG.desc)

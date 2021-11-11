@@ -22,8 +22,7 @@ function firstQuestion(){
     Swal.fire({
         title: CONFIG.introTitle,
         text: CONFIG.introDesc,
-       
-        imageAlt: 'Custom image',
+   
         confirmButtonText: CONFIG.btnIntro
       }).then(function(){
         $('.content').show(0);
@@ -32,7 +31,7 @@ function firstQuestion(){
 
  // switch button position
  function switchButton() {
-    var audio = new Audio('sound/duck.mp3');
+    var audio = new Audio('sound/sound.mp3');
     audio.play();
     var leftNo = $('#no').css("left");
     var topNO = $('#no').css("top");

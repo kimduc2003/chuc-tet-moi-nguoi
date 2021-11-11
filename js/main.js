@@ -98,9 +98,8 @@ $('#yes').click(function() {
         title: CONFIG.question,
         html: true,
         width: 900,
-        padding: '3em',
+      
        
-        background: '#fff url("img/bg1.webp")',
         backdrop: `
               rgba(0,0,123,0.4)
               url("img/giphy2.gif")
@@ -115,7 +114,7 @@ $('#yes').click(function() {
             Swal.fire({
                 width: 900,
                 confirmButtonText: CONFIG.btnAccept,
-                background: '#fff url("img/bg1.webp")',
+               
                 title: CONFIG.mess,
                 text: CONFIG.messDesc,
                 confirmButtonColor: '#83d0c9',

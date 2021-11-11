@@ -96,7 +96,7 @@ $('#yes').click(function() {
     audio.play();
     Swal.fire({
         title: CONFIG.question,
-        html: true,
+       
         width: 900,
       
        

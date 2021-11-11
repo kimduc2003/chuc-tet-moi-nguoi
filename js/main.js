@@ -26,7 +26,7 @@ function firstQuestion(){
         imageAlt: 'Custom image',
         confirmButtonText: CONFIG.btnIntro
       }).then(function(){
-        $('.content').show(200);
+        $('.content').show(0);
       })
 }
 

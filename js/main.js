@@ -17,21 +17,7 @@ function init(){
     $('#no').text(CONFIG.btnNo)
 }
 
-function firstQuestion(){
-    $('.content').hide();
-    Swal.fire({
-        title: CONFIG.introTitle,
-        text: CONFIG.introDesc,
-        imageUrl: 'img/lookMe.jpg',
-        imageWidth: 300,
-        imageHeight: 300,
-        background: '#fff url("img/bg1.webp")',
-        imageAlt: 'Custom image',
-        confirmButtonText: CONFIG.btnIntro
-      }).then(function(){
-        $('.content').show(200);
-      })
-}
+
 
  // switch button position
  function switchButton() {
